@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Regular_;
+    src: url(Fonts\Manrope-Regular.ttf);
+}
+@font-face {
+    font-family:Regular_Man;
+    src: url(Fonts/Manrope-Regular.ttf);
+}
+@font-face {
+    font-family:Bold;
+    src: url(Fonts/Manrope-Bold.ttf);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+    background-image: url(Green.img/bamboo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wrapper{
+    background-color: rgb(249, 255, 246);
+	margin: 0 auto;
+	width: 1500px;
+    height: 780px;
+	padding: 50px;
+	border-top: 5px solid rgb(22, 99, 7);
+	border-bottom: 5px solid rgb(22, 99, 7);
+    position: relative;
+    background: linear-gradient(to right,rgb(255, 255, 255) 70%, rgb(204, 252, 196));
+}
+
+.logo{
+   position: absolute;
+   height: 100px;
+   width: 350px;
+   top: 260px;
+   left: 100px;
+}
+
+.logo h1{
+    font-family: Regular_, sans-serif;
+    font-size: 50px;
+    font-weight: 200px;
+    margin-bottom: 0%;
+
+}
+
+#colored{
+    font-family: Regualar_, sans-serif;
+    font-size: 50px;
+    color:#62CD14;
+    position: absolute;
+    top: 0px;
+    left: 160px;
+
+}
+
+#market{
+    font-family: Regular_, sans-serif;
+    position: absolute;
+    top: 50px;
+   
+}
+
+.logo p{
+    font-family: Regular_Man, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 60px;
+}
+
+.logoIMG img{
+    position: absolute;
+    margin-top: 5px;
+    top: 100px;
+    left: 800px;
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: #37750C;
+    transition: all 1s ease;
+    animation:fadeEffect 1s ease;
+}
+
+
+
+@keyframes fadeEffect{
+    0% {opacity: 1;}
+    50% {opacity: 0.6;}
+    100%{opacity: 1;}
+}
+
+.container{
+   width: 30px;
+    height: 30px;
+    background-color:rgb(13, 129, 13);
+    clip-path: circle();
+    position: absolute;
+    top: 360px;
+    left: 450px;
+    transition: all 2s ease;
+    animation:fadeEffect 2s ease-in;
+}
+
+.container1{
+    width: 60px;
+    height: 60px;
+    background-color:rgb(13, 129, 13);
+    clip-path: circle();
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    transition: all 3s ease;
+    animation:fadeEffect 3s ease-in;
+}
+
+.container2{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(13, 129, 13);
+    clip-path: circle();
+    position: absolute;
+    top: 160px;
+    left: 460px;
+    transition: all 4s ease;
+    animation:fadeEffect 4s ease-in;
+}
+
+.container3{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(13, 129, 13);
+    clip-path: circle();
+    position: absolute;
+    top: 70px;
+    left: 330px;
+    transition: all 5s ease;
+    animation:fadeEffect 5s ease-in;
+}
+
+
+
+
+
+
